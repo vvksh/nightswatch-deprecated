@@ -1,0 +1,5 @@
+FROM golang:1.14.3-stretch
+ENV SLACK_WEBHOOK="{{WEBHOOK_URL}}"
+ADD . ~/nightswatch
+WORKDIR ~/nightswatch
+CMD go run main.go gnwPharmaWatcher.go gnwTechWatcher.go commonUtils.go watcher.go
