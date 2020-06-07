@@ -7,7 +7,6 @@ import (
 )
 
 const pharmaRSS = "https://www.globenewswire.com/RssFeed/industry/4577-Pharmaceuticals/feedTitle/GlobeNewswire%20-%20Industry%20News%20on%20Pharmaceuticals"
-const pharmaChannelWebhook = "https://hooks.slack.com/services/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"
 
 var checkedPharma = make(map[string]bool)
 

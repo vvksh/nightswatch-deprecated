@@ -7,7 +7,6 @@ import (
 )
 
 const techRSS = "https://www.globenewswire.com/AtomFeed/industry/9000-Technology/feedTitle/GlobeNewswire%20-%20Industry%20News%20on%20Technology"
-const techChannelWebhook = "https://hooks.slack.com/services/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"
 
 var checkedTech = make(map[string]bool)
 
